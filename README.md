@@ -25,7 +25,7 @@ $ pip install weibo
     [新浪开发平台](http://open.weibo.com/apps) 新建一个 app.
 -   创建好应用之后在 \'应用信息 -\> \'基本信息\' 里面获取 `App Key` 和 `App Secret`.
 -   在 \'应用信息 -\> \'高级信息\' 里面设置好 \'授权回调页\'.
-
+<!--
 ### 示例
 
 下面分别用 `App Key`，`App Secret`和`REDIRECT_URI` 代表准备工作里面的三个参数。
@@ -79,3 +79,4 @@ client 兼容上传图片接口。
 >>> f = open('avatar.png', 'rb')
 >>> c.post('statuses/upload', status='new avatar!', pic=f)
 ```
+-->
